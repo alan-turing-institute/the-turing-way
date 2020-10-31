@@ -69,7 +69,7 @@ You can also make changes directly on the GitHub by editing the online repositor
 Others can then clone the repository to their computer by using:
 
 ```
-git clone https://GitHub.com/your_username/repository_name.Git
+git clone git@github.com:your-github-username/repository_name
 ```
 
 They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
@@ -114,13 +114,13 @@ You can now work on your personal copy using commandline using following steps.
 1. clone it to your local machine:
 
 ```
-git clone git@github.com/your_username/forked_repository.git
+git clone git@github.com:your-github-username/repository_name
 ```
 
-2. Add the 'upstream' repository to list of remote repositories using a similar command as below (replace the upstream repository's users id and original repository name)
+2. Add the 'upstream' repository to list of remote repositories using a similar command as below (replace the upstream repository's username)
 
 ```
-git remote add upstream https://github.com/upstream_user's_username/original_repository.git
+git remote add upstream git@github.com:upstream-github-username/repository_name
 ```
 
 3. Verify the new remote 'upstream' repository
