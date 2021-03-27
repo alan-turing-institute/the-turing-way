@@ -72,7 +72,7 @@ You can also make changes directly on the GitHub by editing the online repositor
 Others can also clone the repository to their computer by using:
 
 ```
-git clone https://GitHub.com/your_username/repository_name.Git
+git clone git@github.com:your-github-username/repository_name
 ```
 
 They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
@@ -120,13 +120,13 @@ You can now work on your copy using the command line, via the following steps:
 1. Clone it to your local machine:
 
 ```
-git clone git@github.com/your_username/forked_repository.git
+git clone git@github.com:your-github-username/repository_name
 ```
 
 2. Add the 'upstream' repository to the list of remote repositories using a similar command as below (replace the upstream repository's users id and original repository name):
 
 ```
-git remote add upstream https://github.com/upstream_user's_username/original_repository.git
+git remote add upstream git@github.com:upstream-github-username/repository_name
 ```
 
 3. Verify the new remote 'upstream' repository:
@@ -192,6 +192,11 @@ Now you can make a pull request!
 
 Before you create a branch, make sure you have all the upstream changes from the origin/master branch.
 
+
 **A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command.
 It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section.
 You can find more details about Merging vs Rebasing [here](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+## Further reading
+- An [article on syncing a fork of a repository](https://help.github.com/en/articles/syncing-a-fork) to keep it up-to-date with the upstream repository.
+- Instructions if you wish to do it all [in the browser itself](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).
