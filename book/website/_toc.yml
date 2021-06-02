@@ -122,8 +122,6 @@
       file: reproducible-research/renv/renv-package
     - title: YAML
       file: reproducible-research/renv/renv-yaml
-    - title: Binder
-      file: reproducible-research/renv/renv-binder
     - title: Virtual Machines
       file: reproducible-research/renv/renv-vm
     - title: Containers
@@ -246,6 +244,11 @@
 
 - file: communication/communication
   sections:
+    - title: Binder
+      file: communication/binder
+      sections:
+        - title: Zero-to-Binder
+          file: communication/binder/zero-to-binder
     - title: Making Research Objects Citable
       file: communication/citable
       sections:
@@ -260,12 +263,12 @@
     - title: Community Communications for Open Source Projects
       file: communication/os-comms
       sections:
-      - title: Issue Tracking
-        file: communication/os-comms/os-comms-issue-tracking
-      - title: Communication Channels
-        file: communication/os-comms/os-comms-channels
-      - title: Further Reading
-        file: communication/os-comms/os-comms-resources
+        - title: Issue Tracking
+          file: communication/os-comms/os-comms-issue-tracking
+        - title: Communication Channels
+          file: communication/os-comms/os-comms-channels
+        - title: Further Reading
+          file: communication/os-comms/os-comms-resources
 
 # ===== Collaboration Guide ========================================
 
